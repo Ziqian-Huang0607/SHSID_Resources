@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHSID Hub</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <noscript>
+      <style>
+        @media (max-width: 600px) {
+          nav { transform: translateX(0%); position: relative; inset: auto; flex-direction: column; background: var(--dark-color); backdrop-filter: none; }
+          .mobile-nav-toggle { display: none; }
+        }
+      </style>
+    </noscript>
+</head>
+<body>
+    <header>
+        <h1>SHSID Resource Hub</h1>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">Menu</span></button>
+    </header>
+    <nav id="primary-navigation">
+        <a href="/">Home</a>
+        <a href="/resources.html">All Resources</a>
+        <a href="/about.html">About</a>
+        <a href="/contribute.html">Contribute</a>
+    </nav>
+    <main>
+        <section class="hero">
+            <h2>Welcome, Students!</h2>
+            <p>Your one-stop place for study guides, helpful links, and class materials, built by the community, for the community.</p>
+            <a href="/resources.html" class="cta-button">Explore Resources</a>
+        </section>
+    </main>
+    <a href="#" class="back-to-top" aria-label="Back to top">↑</a>
+    <footer>
+        <p>&copy; 2025 SHSID Community Effort. Gordon.H & Will.C</p>
+    </footer>
+    <script type="module" src="/scripts/main.ts"></script>
+</body>
+</html>

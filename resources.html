@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Resources - SHSID Hub</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <noscript>
+      <style>
+        @media (max-width: 600px) {
+          nav { transform: translateX(0%); position: relative; inset: auto; flex-direction: column; background: var(--dark-color); backdrop-filter: none; }
+          .mobile-nav-toggle { display: none; }
+        }
+      </style>
+    </noscript>
+</head>
+<body>
+    <header>
+        <h1>SHSID Resource Hub</h1>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">Menu</span></button>
+    </header>
+    <nav id="primary-navigation">
+        <a href="/">Home</a>
+        <a href="/resources.html">All Resources</a>
+        <a href="/about.html">About</a>
+        <a href="/contribute.html">Contribute</a>
+    </nav>
+    <main>
+        <h2>All Resources</h2>
+        <p>Find links and documents organized by subject.</p>
+        <section class="resource-section">
+            <h3>Mathematics</h3>
+            <ul class="resource-list">
+                <li><a href="https://www.khanacademy.org/math" target="_blank">Khan Academy Math</a> - Videos and practice problems for all levels.</li>
+                <li><a href="https://www.desmos.com/calculator" target="_blank">Desmos Graphing Calculator</a> - The best online graphing calculator.</li>
+            </ul>
+        </section>
+        <section class="resource-section">
+            <h3>Science</h3>
+            <ul class="resource-list">
+                <li><a href="https://phet.colorado.edu/" target="_blank">PhET Interactive Simulations</a> - Fun, interactive simulations for physics, chemistry, and biology.</li>
+            </ul>
+        </section>
+    </main>
+    <a href="#" class="back-to-top" aria-label="Back to top">↑</a>
+    <footer>
+        <p>&copy; 2025 SHSID Community Effort. Gordon.H & Will.C</p>
+    </footer>
+    <script type="module" src="/scripts/main.ts"></script>
+</body>
+</html>

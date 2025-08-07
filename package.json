@@ -1,0 +1,14 @@
+{
+  "name": "school-resource-site",
+  "version": "1.0.0",
+  "description": "A community resource website for my school.",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
